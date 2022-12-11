@@ -1,5 +1,6 @@
 package hue
 
+// Constant of colours and background colours
 const (
 	Black   = "\033[1;30m%s\033[0m"
 	Red     = "\033[1;31m%s\033[0m" // error
