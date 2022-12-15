@@ -42,6 +42,24 @@ func main() {
 	fmt.Println(hue.StealBgf("this is %s %s", "teal", "background"))
 	fmt.Println(hue.SwhiteBgf("this is %s %s", "white", "background"))
 
+	// demo println.go
+	hue.Blackln("this", "is", "black", "line")
+	hue.Redln("this", "is", "red", "line")
+	hue.Greenln("this", "is", "green", "line")
+	hue.Yellowln("this", "is", "yellow", "line")
+	hue.Blueln("this", "is", "blue", "line")
+	hue.Magentaln("this", "is", "magenta", "line")
+	hue.Tealln("this", "is", "teal", "line")
+	hue.Whiteln("this", "is", "white", "line")
+	hue.BlackBgln("this", "is", "black", "background", "line")
+	hue.RedBgln("this", "is", "red", "background", "line")
+	hue.GreenBgln("this", "is", "green", "background", "line")
+	hue.YellowBgln("this", "is", "yellow", "background", "line")
+	hue.BlueBgln("this", "is", "blue", "background", "line")
+	hue.MagentaBgln("this", "is", "magenta", "background", "line")
+	hue.TealBgln("this", "is", "teal", "background", "line")
+	hue.WhiteBgln("this", "is", "white", "background", "line")
+
 	//// Demo cli.go
 	//hue.Blackln("hue.Blackln(\"message\")")
 	//hue.Redln("hue.Redln(\"message\")")
