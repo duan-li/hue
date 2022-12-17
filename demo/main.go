@@ -60,6 +60,13 @@ func main() {
 	hue.TealBgln("this", "is", "teal", "background", "line")
 	hue.WhiteBgln("this", "is", "white", "background", "line")
 
+	// Demo cli.go
+	hue.Info("this", "is", "info")
+	hue.Warn("this", "is", "warn")
+	hue.Error("this", "is", "error")
+	hue.Success("this", "is", "success")
+	hue.Fatal("this", "is", "fatal")
+
 	//// Demo cli.go
 	//hue.Blackln("hue.Blackln(\"message\")")
 	//hue.Redln("hue.Redln(\"message\")")
