@@ -49,3 +49,51 @@ func TestSwhite(t *testing.T) {
 		t.Error("Swhite failed")
 	}
 }
+
+func TestSblackbg(t *testing.T) {
+	if SblackBg("test", "word") != BlackBgStart+"test"+"word"+BlackBgEnd {
+		t.Error("SblackBg failed")
+	}
+}
+
+func TestSredbg(t *testing.T) {
+	if SredBg("test", "word") != RedBgStart+"test"+"word"+RedBgEnd {
+		t.Error("SredBg failed")
+	}
+}
+
+func TestSgreenbg(t *testing.T) {
+	if SgreenBg("test", "word") != GreenBgStart+"test"+"word"+GreenBgEnd {
+		t.Error("SgreenBg failed")
+	}
+}
+
+func TestSyellowbg(t *testing.T) {
+	if SyellowBg("test", "word") != YellowBgStart+"test"+"word"+YellowBgEnd {
+		t.Error("SyellowBg failed")
+	}
+}
+
+func TestSbluebg(t *testing.T) {
+	if SblueBg("test", "word") != BlueBgStart+"test"+"word"+BlueBgEnd {
+		t.Error("SblueBg failed")
+	}
+}
+
+func TestSmagentabg(t *testing.T) {
+	if SmagentaBg("test", "word") != MagentaBgStart+"test"+"word"+MagentaBgEnd {
+		t.Error("SmagentaBg failed")
+	}
+}
+
+func TestStealbg(t *testing.T) {
+	if StealBg("test", "word") != TealBgStart+"test"+"word"+TealBgEnd {
+		t.Error("StealBg failed")
+	}
+}
+
+func TestSwhitebg(t *testing.T) {
+	if SwhiteBg("test", "word") != WhiteBgStart+"test"+"word"+WhiteBgEnd {
+		t.Error("SwhiteBg failed")
+	}
+}
