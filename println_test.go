@@ -23,7 +23,7 @@ func captureOutput(f func()) string {
 
 	f()
 
-	defer w.Close()
+	w.Close()
 	out, _ := io.ReadAll(r)
 	os.Stdout = rescueStdout
 	return string(out)
