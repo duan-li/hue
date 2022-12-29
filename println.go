@@ -1,17 +1,20 @@
 package hue
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 // Blackln prints a message in black
 func Blackln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = BlackStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = BlackEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(BlackStart + str + BlackEnd)
 }
 
 // Redln prints a message in red
