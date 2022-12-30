@@ -19,86 +19,86 @@ func Blackln(s ...string) (n int, err error) {
 
 // Redln prints a message in red
 func Redln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = RedStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = RedEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(RedStart + str + RedEnd)
 }
 
 // Greenln prints a message in green
 func Greenln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = GreenStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = GreenEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(GreenStart + str + GreenEnd)
 }
 
 // Yellowln prints a message in yellow
 func Yellowln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = YellowStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = YellowEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(YellowStart + str + YellowEnd)
 }
 
 // Blueln prints a message in blue
 func Blueln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = BlueStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = BlueEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(BlueStart + str + BlueEnd)
 }
 
 // Magentaln prints a message in magenta
 func Magentaln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = MagentaStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = MagentaEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(MagentaStart + str + MagentaEnd)
 }
 
 // Tealln prints a message in teal
 func Tealln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = TealStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = TealEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(TealStart + str + TealEnd)
 }
 
 // Whiteln prints a message in white
 func Whiteln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = WhiteStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = WhiteEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(WhiteStart + str + WhiteEnd)
 }
 
 // BlackBgln prints a message in black background
