@@ -103,96 +103,96 @@ func Whiteln(s ...string) (n int, err error) {
 
 // BlackBgln prints a message in black background
 func BlackBgln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = BlackBgStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = BlackBgEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(BlackBgStart + str + BlackBgEnd)
 }
 
 // RedBgln prints a message in red background
 func RedBgln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = RedBgStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = RedBgEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(RedBgStart + str + RedBgEnd)
 }
 
 // GreenBgln prints a message in green background
 func GreenBgln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = GreenBgStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = GreenBgEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(GreenBgStart + str + GreenBgEnd)
 }
 
 // YellowBgln prints a message in yellow background
 func YellowBgln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = YellowBgStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = YellowBgEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(YellowBgStart + str + YellowBgEnd)
 }
 
 // BlueBgln prints a message in blue background
 func BlueBgln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = BlueBgStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = BlueBgEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(BlueBgStart + str + BlueBgEnd)
 }
 
 // MagentaBgln prints a message in magenta background
 func MagentaBgln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = MagentaBgStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = MagentaBgEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(MagentaBgStart + str + MagentaBgEnd)
 }
 
 // TealBgln prints a message in teal background
 func TealBgln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = TealBgStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = TealBgEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(TealBgStart + str + TealBgEnd)
 }
 
 // WhiteBgln prints a message in white background
 func WhiteBgln(s ...string) (n int, err error) {
-	an := make([]interface{}, len(s)+2)
-	an[0] = WhiteBgStart
+	an := make([]interface{}, len(s))
 	for i, v := range s {
-		i++
 		an[i] = v
 	}
-	an[len(s)+1] = WhiteBgEnd
-	return fmt.Println(an...)
+	str := fmt.Sprintln(an...)
+	str = strings.Trim(str, "\n")
+	str = strings.Trim(str, " ")
+	return fmt.Println(WhiteBgStart + str + WhiteBgEnd)
 }

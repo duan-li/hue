@@ -86,6 +86,86 @@ func TestWhiteln(t *testing.T) {
 	}
 }
 
+func TestBlackBgln(t *testing.T) {
+	output := captureOutput(func() {
+		BlackBgln("test", "word")
+	})
+
+	if output != BlackBgStart+"test word"+BlackBgEnd+"\n" {
+		t.Error("BlackBgln failed")
+	}
+}
+
+func TestRedBgln(t *testing.T) {
+	output := captureOutput(func() {
+		RedBgln("test", "word")
+	})
+
+	if output != RedBgStart+"test word"+RedBgEnd+"\n" {
+		t.Error("RedBgln failed")
+	}
+}
+
+func TestGreenBgln(t *testing.T) {
+	output := captureOutput(func() {
+		GreenBgln("test", "word")
+	})
+
+	if output != GreenBgStart+"test word"+GreenBgEnd+"\n" {
+		t.Error("GreenBgln failed")
+	}
+}
+
+func TestYellowBgln(t *testing.T) {
+	output := captureOutput(func() {
+		YellowBgln("test", "word")
+	})
+
+	if output != YellowBgStart+"test word"+YellowBgEnd+"\n" {
+		t.Error("YellowBgln failed")
+	}
+}
+
+func TestBlueBgln(t *testing.T) {
+	output := captureOutput(func() {
+		BlueBgln("test", "word")
+	})
+
+	if output != BlueBgStart+"test word"+BlueBgEnd+"\n" {
+		t.Error("BlueBgln failed")
+	}
+}
+
+func TestMagentaBgln(t *testing.T) {
+	output := captureOutput(func() {
+		MagentaBgln("test", "word")
+	})
+
+	if output != MagentaBgStart+"test word"+MagentaBgEnd+"\n" {
+		t.Error("MagentaBgln failed")
+	}
+}
+
+func TestTealBgln(t *testing.T) {
+	output := captureOutput(func() {
+		TealBgln("test", "word")
+	})
+
+	if output != TealBgStart+"test word"+TealBgEnd+"\n" {
+		t.Error("TealBgln failed")
+	}
+}
+
+func TestWhiteBgln(t *testing.T) {
+	output := captureOutput(func() {
+		WhiteBgln("test", "word")
+	})
+
+	if output != WhiteBgStart+"test word"+WhiteBgEnd+"\n" {
+		t.Error("WhiteBgln failed")
+	}
+}
+
 func captureOutput(f func()) string {
 	rescueStdout := os.Stdout
 	r, w, _ := os.Pipe()
