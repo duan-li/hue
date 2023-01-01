@@ -16,14 +16,14 @@ go get -u github.com/duan-li/hub
 
 ```golang
 
-str := hue.Sblack("this", "is", "black", "text")
-str := hue.Sred("this", "is", "red", "text")
-str := hue.Sgreen("this", "is", "green", "text")
-str := hue.Syellow("this", "is", "yellow", "text")
-str := hue.Sblue("this", "is", "blue", "text")
-str := hue.Smagenta("this", "is", "magenta", "text")
-str := hue.Steal("this", "is", "teal", "text")
-str := hue.Swhite("this", "is", "white", "text")
+str := hue.Sblack("this", "is", "black", "text") // thisisblacktext
+str := hue.Sred("this", "is", "red", "text") // thisisredtext
+str := hue.Sgreen("this", "is", "green", "text") // thisisgreentext
+str := hue.Syellow("this", "is", "yellow", "text") // thisisyellowtext
+str := hue.Sblue("this", "is", "blue", "text") // thisisbluetext
+str := hue.Smagenta("this", "is", "magenta", "text") // thisismagentatext
+str := hue.Steal("this", "is", "teal", "text") // thisistealtext
+str := hue.Swhite("this", "is", "white", "text") // thisiswhitetext
 str := hue.SblackBg("this", "is", "black", "background")
 str := hue.SredBg("this", "is", "red", "background")
 str := hue.SgreenBg("this", "is", "green", "background")
