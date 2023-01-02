@@ -24,14 +24,14 @@ str := hue.Sblue("this", "is", "blue", "text") // thisisbluetext
 str := hue.Smagenta("this", "is", "magenta", "text") // thisismagentatext
 str := hue.Steal("this", "is", "teal", "text") // thisistealtext
 str := hue.Swhite("this", "is", "white", "text") // thisiswhitetext
-str := hue.SblackBg("this", "is", "black", "background")
-str := hue.SredBg("this", "is", "red", "background")
-str := hue.SgreenBg("this", "is", "green", "background")
-str := hue.SyellowBg("this", "is", "yellow", "background")
-str := hue.SblueBg("this", "is", "blue", "background")
-str := hue.SmagentaBg("this", "is", "magenta", "background")
-str := hue.StealBg("this", "is", "teal", "background")
-str := hue.SwhiteBg("this", "is", "white", "background")
+str := hue.SblackBg("this", "is", "black", "background") // thisisblackbackground
+str := hue.SredBg("this", "is", "red", "background") // thisisredbackground
+str := hue.SgreenBg("this", "is", "green", "background") // thisisgreenbackground
+str := hue.SyellowBg("this", "is", "yellow", "background") // thisisyellowbackground
+str := hue.SblueBg("this", "is", "blue", "background") // thisisbluebackground
+str := hue.SmagentaBg("this", "is", "magenta", "background") // thisismagentabackground
+str := hue.StealBg("this", "is", "teal", "background") // thisistealbackground
+str := hue.SwhiteBg("this", "is", "white", "background") // thisiswhitebackground
 
 ```
 
