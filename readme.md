@@ -40,15 +40,15 @@ str := hue.SwhiteBg("this", "is", "white", "background") // thisiswhitebackgroun
 ### Print format colored text
 
 ```go
-str := hue.Sblackf("this is %s %s", "black", "text")
-str := hue.Sredf("this is %s %s", "red", "text")
-str := hue.Sgreenf("this is %s %s", "green", "text")
-str := hue.Syellowf("this is %s %s", "yellow", "text")
-str := hue.Sbluef("this is %s %s", "blue", "text")
-str := hue.Smagentaf("this is %s %s", "magenta", "text")
-str := hue.Stealf("this is %s %s", "teal", "text")
-str := hue.Swhitef("this is %s %s", "white", "text")
-str := hue.SblackBgf("this is %s %s", "black", "background")
+str := hue.Sblackf("this is %s %s", "black", "text") // this is black text
+str := hue.Sredf("this is %s %s", "red", "text") // this is red text
+str := hue.Sgreenf("this is %s %s", "green", "text") // this is green text
+str := hue.Syellowf("this is %s %s", "yellow", "text") // this is yellow text
+str := hue.Sbluef("this is %s %s", "blue", "text") // this is blue text
+str := hue.Smagentaf("this is %s %s", "magenta", "text") // this is magenta text
+str := hue.Stealf("this is %s %s", "teal", "text") // this is teal text
+str := hue.Swhitef("this is %s %s", "white", "text") // this is white text
+str := hue.SblackBgf("this is %s %s", "black", "background") // this is black background
 str := hue.SredBgf("this is %s %s", "red", "background")
 str := hue.SgreenBgf("this is %s %s", "green", "background")
 str := hue.SyellowBgf("this is %s %s", "yellow", "background")
