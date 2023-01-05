@@ -61,14 +61,14 @@ str := hue.SwhiteBgf("this is %s %s", "white", "background") // this is white ba
 ### Print a line of colored text
 
 ```go
-hue.Blackln("this", "is", "black", "line")
-hue.Redln("this", "is", "red", "line")
-hue.Greenln("this", "is", "green", "line")
-hue.Yellowln("this", "is", "yellow", "line")
-hue.Blueln("this", "is", "blue", "line")
-hue.Magentaln("this", "is", "magenta", "line")
-hue.Tealln("this", "is", "teal", "line")
-hue.Whiteln("this", "is", "white", "line")
+hue.Blackln("this", "is", "black", "line") // this is black line
+hue.Redln("this", "is", "red", "line") // this is red line
+hue.Greenln("this", "is", "green", "line") // this is green line
+hue.Yellowln("this", "is", "yellow", "line") // this is yellow line
+hue.Blueln("this", "is", "blue", "line") // this is blue line
+hue.Magentaln("this", "is", "magenta", "line") // this is magenta line
+hue.Tealln("this", "is", "teal", "line") // this is teal line
+hue.Whiteln("this", "is", "white", "line") // this is white line
 hue.BlackBgln("this", "is", "black", "background", "line")
 hue.RedBgln("this", "is", "red", "background", "line")
 hue.GreenBgln("this", "is", "green", "background", "line")
