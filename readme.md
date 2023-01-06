@@ -69,14 +69,14 @@ hue.Blueln("this", "is", "blue", "line") // this is blue line
 hue.Magentaln("this", "is", "magenta", "line") // this is magenta line
 hue.Tealln("this", "is", "teal", "line") // this is teal line
 hue.Whiteln("this", "is", "white", "line") // this is white line
-hue.BlackBgln("this", "is", "black", "background", "line")
-hue.RedBgln("this", "is", "red", "background", "line")
-hue.GreenBgln("this", "is", "green", "background", "line")
-hue.YellowBgln("this", "is", "yellow", "background", "line")
-hue.BlueBgln("this", "is", "blue", "background", "line")
-hue.MagentaBgln("this", "is", "magenta", "background", "line")
-hue.TealBgln("this", "is", "teal", "background", "line")
-hue.WhiteBgln("this", "is", "white", "background", "line")
+hue.BlackBgln("this", "is", "black", "background", "line") // this is black background line
+hue.RedBgln("this", "is", "red", "background", "line") // this is red background line
+hue.GreenBgln("this", "is", "green", "background", "line") // this is green background line
+hue.YellowBgln("this", "is", "yellow", "background", "line") // this is yellow background line
+hue.BlueBgln("this", "is", "blue", "background", "line") // this is blue background line
+hue.MagentaBgln("this", "is", "magenta", "background", "line") // this is magenta background line
+hue.TealBgln("this", "is", "teal", "background", "line") // this is teal background line
+hue.WhiteBgln("this", "is", "white", "background", "line") // this is white background line
 ```
 
 ### Command line output
