@@ -82,9 +82,9 @@ hue.WhiteBgln("this", "is", "white", "background", "line") // this is white back
 ### Command line output
 
 ```go
-hue.Info("this", "is", "info")
-hue.Warn("this", "is", "warn")
-hue.Error("this", "is", "error")
-hue.Success("this", "is", "success")
-hue.Fatal("this", "is", "fatal")
+hue.Info("this", "is", "info") // this is info 
+hue.Warn("this", "is", "warn") // this is warn 
+hue.Error("this", "is", "error") // this is error 
+hue.Success("this", "is", "success") // this is success 
+hue.Fatal("this", "is", "fatal") // this is fatal 
 ```
