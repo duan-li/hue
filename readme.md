@@ -3,12 +3,26 @@ A package to directly print colored text with or without colored background to t
 
 
 ## Installation
+To install a package in Go, use the "go get" command followed by the package name. For example:
 
 ```bash
 go get github.com/duan-li/hub
 # if you have go modules enabled, you can update your go.mod file with
 go get -u github.com/duan-li/hub
 ```
+
+This will download the package and install it in your Go workspace. You can then import the package into your code using an import statement like this:
+
+```go
+import "github.com/duan-li/hub"
+```
+
+If you want to update an installed package to the latest version, use the "go get -u" command. For example:
+
+```go
+go get -u github.com/duan-li/hub
+```
+
 
 ## Usage
 
