@@ -26,6 +26,12 @@ go get -u github.com/duan-li/hub
 
 ## Usage
 
+To use a package in a Go program, you first need to import it. Importing a package allows you to access the types, functions, and variables that it defines. You can import a package using the import keyword, followed by the package name in double quotes. For example, to import the fmt package, which provides basic input and output functions, you would write:
+
+```go
+import "github.com/duan-li/hub"
+```
+
 ### Generate colorful string
 
 ```golang
