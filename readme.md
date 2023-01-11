@@ -1,8 +1,10 @@
 # hue
 A package to directly print colored text with or without colored background to the terminal.
 
+There are many ways to make a console command output more colorful. One way to do this on a Linux or Mac terminal is to use ANSI escape codes. These codes allow you to change the color of text, background, and cursor in the terminal.
 
 ## Installation
+
 To install a package in Go, use the "go get" command followed by the package name. For example:
 
 ```bash
